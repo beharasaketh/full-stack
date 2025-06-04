@@ -1,0 +1,153 @@
+.instalogo{
+    display: block;
+    width: 12%;
+    margin-left: 950px;
+    margin-top:-515px;
+    margin-bottom: 15px;
+}
+
+body{
+        background-color: black;
+    }
+input{
+        width: 250px;
+        color: red;
+        border: 0.2px solid #555555;
+        border-radius: 5px;
+        padding: 11px;
+        margin-top: 8px;
+        margin-left: 910px;
+        background-color: #121212;
+        font-size: 12px;
+        
+}
+
+::placeholder {
+      
+        /* Firefox, Chrome, Opera */
+        color: #A8A8A8;
+}
+
+button{
+    width: 275px;
+    padding: 8px;
+    margin-left: 910px;
+    border:#3441AF;
+    border-top: 30px;
+    background-color: #3441AF;
+    color: #B3B3B3;
+    border-radius: 10px;
+}
+
+
+p{
+    color: #A8A8A8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 1030px;
+    margin-top: -19px;
+}
+
+.facebooklogo{
+    
+    width:2%;
+    margin-left: 943px;
+}
+
+.facebookatag{
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color: #3579EA;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 979px;
+    margin-top: -27px;
+    font-weight: 650;
+}
+
+.forgot-a{
+    font-size: 13px;
+    display: block;
+    text-decoration: none;
+    color: #708DFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 990px;
+    margin-top: 5px;
+}
+
+.signup-p{
+    display: block;
+    margin-left: 940px;
+    color: #F5F5F5;
+    margin-top:-25px;
+    
+}
+
+.get-the-app{
+    color: #F5F5F5;
+    margin-left: 999px;
+}
+
+.png1{
+    width: 23%;
+    
+}
+
+.png2{
+    display: block;
+    width: 20%;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin-left: 152px;
+    margin-top: -54px;
+}
+
+.play{
+    margin-left: 900px;
+
+}
+
+.landpic{
+    display: block;
+    width: 38%;
+    margin-left: 250px;
+    margin-top: 130px;
+}
+
+.foot{
+    text-decoration: none;
+    font-size:12px;
+    color: #A8A8A8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+
+nav{
+    margin-left: 330px;
+}
+
+.language{
+    background-color: black;
+    color: #A8A8A8;
+    border: none;
+    font-size:12px;
+}
+
+.metatag{
+    display: block;
+    color: #A8A8A8;
+    font-size:11px;
+    margin-left: 130px;
+    margin-top: -13px;
+}
+
+.footer_tag{
+    margin-left: 580px;
+}
