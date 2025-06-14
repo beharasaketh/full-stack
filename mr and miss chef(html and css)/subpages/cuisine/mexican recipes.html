@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="/mr and miss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    nav {
+      background-color: #F5FFFA;
+      display: flex;
+      z-index: 1;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      height: 145px;
+      width: 100%;
+    }
+
+    .logo {
+      display: flex;
+      position: absolute;
+      width: 9%;
+      top: 2px;
+      left: 45px;
+    }
+
+    .nav-options-div {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      justify-content: center;
+      left: 230px;
+      top: 40px;
+      z-index: 10000;
+    }
+
+    .nav-options {
+      list-style-type: none;
+      display: flex;
+      color: black;
+      padding: 50px;
+      font-size: 27px;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: brown;
+    }
+
+    a:hover {
+      text-decoration: underline;
+
+    }
+
+    .nav-options-fw {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      justify-content: center;
+      left: 1220px;
+      top: 58px;
+    }
+
+    .nav-fw {
+      list-style: none;
+      display: flex;
+      padding: 30px;
+      color: brown;
+      font-size: 27px;
+    }
+
+    .home-page-heading {
+      display: flex;
+      position: absolute;
+      flex-direction: row;
+      z-index: 100;
+      top: 360px;
+      left: 880px;
+
+    }
+
+    .ingmak {
+      background-color: aliceblue;
+      border: 1px solid blue;
+      display: none;
+      width: 500px;
+    }
+
+    .ingmak1 {
+      background-color: aliceblue;
+      border: 1px solid blue;
+      display: none;
+      width: 500px;
+    }
+
+    .mainhead {
+      display: flex;
+      justify-content: center;
+    }
+
+    .head {
+      display: flex;
+      justify-content: center;
+    }
+
+    .head {
+      display: flex;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #fff8e1;
+    }
+
+    .imgbox:hover .ingmak {
+      display: block;
+    }
+
+    .imgbox1:hover .ingmak1 {
+      display: block;
+    }
+
+    .row1 {
+      display: flex;
+      justify-content: space-around;
+      padding: 25px;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+      width: 500px;
+      height: 370px;
+      border: 3px solid black;
+    }
+
+    .nav-image {
+      display: flex;
+      position: relative;
+      z-index: 1000000;
+      width: 40px;
+      top: -100px;
+      left: 730px;
+      opacity: 90%;
+
+    }
+
+    body {
+      overflow-x: hidden;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    nav {
+      position: sticky;
+      top: 0px;
+    }
+    .footer{
+           background: linear-gradient(to bottom,rgb(174, 80, 80), #000000);
+            color: #f0f0f0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .foot1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          padding: 15px;
+        }
+
+       .foot2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            position: relative;
+            bottom: 5px;
+            right: 40px;
+            
+
+       
+        }
+       .faicon{
+          padding: 8px;
+        }
+       .a{
+            padding: 8px;
+             color: white;
+             text-decoration: none;
+             position: relative;
+              left: 30px;
+              font-size: 10px;
+              font-family: Arial, Helvetica, sans-serif;
+        }
+        .network{
+              font-size: 12px;
+        }
+        .copyright{
+              font-size: 10px;
+              position: relative;
+              left: 35px;
+        }
+        .fab{
+            padding: 15px;
+        }
+        .smalldiv{
+            position: relative;
+            left: 40px;
+            font-weight: 25px;
+        }
+        .footer-links1{
+            position: relative;
+            left: 18px;
+        }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="/index.html" target="_self"><img class="logo" style="cursor: pointer;"
+        src="/mr and miss chef logo.png"></a>
+    <div class="nav-container">
+      <ul class="nav-options-div">
+        <li class="nav-options recepies-parent"><a href="">RECIPIES <i class="fa-solid fa-bowl-food"></i></a>
+          <ul class="recepies-options">
+            <li class="recepies-types"><a href="/subpages/recepies/Freshstart.html" target="_self">FRESH START</a></li>
+            <li class="recepies-types"><a href="/subpages/recepies/middaymeals.html" target="_self">MIDDAY MEALS</a>
+            </li>
+            <li class="recepies-types"><a href="/subpages/recepies/dinnerdelights.html" target="_self">DINNER
+                DELIGHTS</a></li>
+            <li class="recepies-types"><a href="/subpages/recepies/anytimemunchies.html" target="_self">ANYTIME
+                MUNCHES</a></li>
+            <li class="recepies-types"><a href="/subpages/recepies/sweettreats.html" target="_self">SWEET TREATS</a>
+            </li>
+            <li class="recepies-types"><a href="/subpages/recepies/sipsandsips.html" target="_self">SIPS & SIPS</a></li>
+          </ul>
+        </li>
+        <li class="nav-options foodstyle-parent"><a href="">FOOD STYLES <i class="fa-solid fa-utensils"></i> </a>
+          <ul class="foodstyle-options">
+            <li class="foodstyle-types"><a href="/subpages/meatymains/meaty mains.html" target="_self">MEATY MAINS</a>
+            </li>
+            <li class="foodstyle-types"><a href="/subpages/seafoodstyles/seafood specials.html" target="_self">SEAFOOD
+                SPECIALS</a></li>
+            <li class="foodstyle-types"><a href="/subpages/healthyandwholesome//healthy and wholesome.html"
+                target="_self">HEALTHY AND WHOLESOME</a></li>
+            <li class="foodstyle-types"><a href="/subpages/dietandmenox/diet and menox.html" target="_self">DIET AND
+                MENOX</a></li>
+            <li class="foodstyle-types"><a href="/subpages//streetstylecraving//street style craving.html"
+                target="_self">STREET STYLE CRAVINGS</a></li>
+          </ul>
+        </li>
+        <li class="nav-options cuisine-parent"><a href="">CUISINE <i class="fa-solid fa-globe"></i></a>
+          <ul class="cuisine-options">
+            <li class="cuisine-types"><a href="/subpages/cuisine/indian recipes.html" target="_self">INDIAN RECEPIES</a>
+            </li>
+            <li class="cuisine-types"><a href="/subpages/cuisine/chinese recipes.html" target="_self">CHINESE
+                RECEPIES</a></li>
+            <li class="cuisine-types"><a href="/subpages/cuisine/italian recipes.html" target="_self">ITALIAN
+                RECEPIES</a></li>
+            <li class="cuisine-types"><a href="/subpages/cuisine/mexican recipes.html" target="_self">MEXICAN
+                RECEPIES</a> </li>
+          </ul>
+        </li>
+        <li class="nav-options seasonal-parent"><a href="">SEASONAL <i class="fa-solid fa-leaf"></i></a>
+          <ul class="seasonal-options">
+            <li class="seasonal-types"><a href="" target="_self">SPRINGLICIOUS</a></li>
+            <li class="seasonal-types"><a href="" target="_self">SUMMER EATS</a></li>
+            <li class="seasonal-types"><a href="" target="_self">WINTER WARM</a></li>
+            <li class="seasonal-types"><a href="" target="_self">FALL BITE</a> </li>
+          </ul>
+        </li>
+      </ul>
+      <img class="nav-image" src="/nav-image.png">
+    </div>
+
+    <div class="nav-container-2">
+      <ul class="nav-options-fw" style="z-index: 99999999999;">
+        <li class="nav-fw"><a href="" target="_self"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li class="nav-fw"><a href="/subpages/bookmark.html" target="_self"><i class="fa-solid fa-bookmark"></i> </a></li>
+        <li class="nav-fw"><a href="/subpages/profileform.html" target="_self"><i class="fa-solid fa-user"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="top">
+    <h1 class="mainhead">Mexican Recepies</h1>
+
+  </div>
+
+  <div class="row1">
+
+    <div class="imgbox">
+      <img class="img1"
+        src="https://images.pexels.com/photos/4955267/pexels-photo-4955267.jpeg?auto=compress&cs=tinysrgb&w=600">
+      <h2>Burritos</h2>
+      <div class="ingmak">
+        <div class="ingbox">
+          <ul class="inglist">
+            <h3>Ingredients:</h3>
+            <ul>
+              <li>4 large flour tortillas</li>
+              <li>1 cup cooked rice</li>
+              <li>1 cup cooked beans (black or pinto)</li>
+              <li>1/2 cup corn (optional)</li>
+              <li>1 cup cooked chicken or beef (shredded)</li>
+              <li>1/2 cup salsa or diced tomatoes</li>
+              <li>1/2 cup shredded cheese (cheddar or Mexican blend)</li>
+              <li>1/4 cup sour cream</li>
+              <li>1/4 cup chopped lettuce</li>
+              <li>1/4 cup chopped onions (optional)</li>
+              <li>Salt and pepper to taste</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="makbox">
+
+
+          <h2 class="name">Preparation Steps:</h2>
+          <ol>
+            <li>Warm the tortillas in a pan or microwave until soft and flexible.</li>
+            <li>Lay each tortilla flat and add rice, beans, meat, corn, salsa, and cheese in the center.</li>
+            <li>Add sour cream, lettuce, and onions if using.</li>
+            <li>Season with salt and pepper.</li>
+            <li>Fold the sides of the tortilla and roll it up tightly from the bottom to form a burrito.</li>
+            <li>Grill the burrito on a pan for 1–2 minutes on each side for a crisp texture (optional).</li>
+            <li>Serve warm with extra salsa or guacamole.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="imgbox1">
+        <img class="img2"
+          src="https://images.pexels.com/photos/376463/pexels-photo-376463.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <h2>Chilaquiles</h2>
+        <div class="ingmak1">
+          <div class="ingbox">
+            <ul class="inglist">
+              <h2>Ingredients:</h2>
+              <ul>
+                <li>8 corn tortillas, cut into triangles</li>
+                <li>1 tablespoon vegetable oil</li>
+                <li>1 cup red or green salsa</li>
+                <li>1/4 cup chopped onion</li>
+                <li>1/2 cup crumbled queso fresco or feta cheese</li>
+                <li>1/4 cup sour cream or Mexican crema</li>
+                <li>2 eggs (optional, for topping)</li>
+                <li>Fresh cilantro, chopped (optional)</li>
+                <li>Salt to taste</li>
+              </ul>
+            </ul>
+            <h2 class="name">Preparation Steps:</h2>
+            <ol>
+              <li>Heat oil in a skillet over medium heat.</li>
+              <li>Fry tortilla triangles until crispy and golden, then drain on paper towels.</li>
+              <li>Remove excess oil, then add salsa to the pan and warm it up.</li>
+              <li>Add the crispy tortillas to the salsa and gently toss to coat.</li>
+              <li>Cook for 2–3 minutes until slightly softened.</li>
+              <li>Top with chopped onions, cheese, and a drizzle of sour cream.</li>
+              <li>Optional: Fry or scramble eggs and place them on top.</li>
+              <li>Garnish with cilantro and serve hot.</li>
+            </ol>
+          </div>
+          <hr>
+          <div class="makbox">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row1">
+    <div class="container1">
+      <div class="imgbox">
+        <img class="img3"
+          src="https://images.pexels.com/photos/14190172/pexels-photo-14190172.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <h2>Bunuelos</h2>
+        <div class="ingmak">
+          <div class="ingbox">
+            <ul class="inglist">
+              <h2>Ingredients</h2>
+              <ul>
+                <li>2 1/4 teaspoons active dry yeast (1 packet)</li>
+                <li>3/4 cup warm water (110°F/45°C)</li>
+                <li>1/4 cup granulated sugar</li>
+                <li>1/2 teaspoon salt</li>
+                <li>1 egg</li>
+                <li>1/2 cup whole milk</li>
+                <li>3 1/2 cups all-purpose flour</li>
+                <li>2 tablespoons softened butter</li>
+                <li>Vegetable oil for deep frying</li>
+                <li>Powdered sugar for dusting</li>
+              </ul>
+            </ul>
+          </div>
+          <hr>
+          <div class="makbox">
+
+            <h2 class="name">Preparation Steps:</h2>
+            <ol>
+              <li>In a bowl, dissolve yeast in warm water and let it sit for 5 minutes until foamy.</li>
+              <li>Add sugar, salt, egg, and milk. Mix well.</li>
+              <li>Stir in 2 cups of flour and mix until smooth. Add butter and remaining flour to make a soft dough.
+              </li>
+              <li>Knead the dough on a floured surface for about 5–7 minutes until smooth and elastic.</li>
+              <li>Place dough in a greased bowl, cover, and let rise in a warm place for 1 to 2 hours or until doubled
+                in size.</li>
+              <li>Punch down the dough and roll out to 1/4-inch thickness. Cut into 2-inch squares.</li>
+              <li>Heat oil in a deep fryer or large pot to 350°F (175°C).</li>
+              <li>Fry beignets a few at a time for 1–2 minutes per side, or until golden brown.</li>
+              <li>Remove and drain on paper towels.</li>
+              <li>Dust generously with powdered sugar and serve warm.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="imgbox1">
+        <img class="img4"
+          src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <h2>Chicken Taquitos</h2>
+        <div class="ingmak1">
+          <div class="ingbox">
+            <ul class="inglist">
+              <h2>Ingredients</h2>
+              <ul>
+                <li>2 tablespoons olive oil</li>
+                <li>1 onion, chopped</li>
+                <li>2 cloves garlic, minced</li>
+                <li>1 carrot, diced</li>
+                <li>1 celery stalk, diced</li>
+                <li>1 can (15 oz) cannellini beans, drained and rinsed</li>
+                <li>1 can (15 oz) crushed tomatoes</li>
+                <li>1 teaspoon dried oregano</li>
+                <li>Salt and pepper to taste</li>
+                <li>1/2 pound small pasta (like ditalini or elbow)</li>
+                <li>1 cup shredded mozzarella cheese</li>
+                <li>1/4 cup grated Parmesan cheese</li>
+                <li>Fresh basil for garnish (optional)</li>
+              </ul>
+            </ul>
+          </div>
+          <hr>
+          <div class="makbox">
+            <h2 class="name">Preparation Steps:</h2>
+            <ol>
+              <li>Preheat oven to 375°F (190°C).</li>
+              <li>Heat olive oil in a large skillet over medium heat.</li>
+              <li>Add chopped onion, carrot, and celery. Sauté until softened (about 5 minutes).</li>
+              <li>Add garlic and cook for 1 more minute.</li>
+              <li>Stir in beans, crushed tomatoes, oregano, salt, and pepper. Simmer for 10 minutes.</li>
+              <li>Meanwhile, cook pasta in salted water until al dente. Drain.</li>
+              <li>Mix the pasta with the sauce and pour into a greased baking dish.</li>
+              <li>Top with mozzarella and Parmesan cheese.</li>
+              <li>Bake for 15–20 minutes until cheese is melted and golden.</li>
+              <li>Garnish with fresh basil and serve hot.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="row">
+      <div class="foot1">
+        <div class="social-icons">
+          <i class="fab fa-facebook-f "></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+
+        </div>
+        <div class="copyright1">
+          <div class="network">From our kitchen to yours – Mr. & Mrs. Chef </div>
+          <div class="copyright">© 2025 All rights reserved. Eat well, live well.</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="foot2">
+          <div class="footer-links1">
+            <a class="a" href="#">All Categories</a>
+            <a class="a" href="#">Site Map</a>
+            <a class="a" href="#">About Us</a>
+            <a class="a" href="#">Help</a>
+          </div>
+          <div class="footer-links2">
+            <div class="smalldiv">
+              <a class="a" href="#">Advertise</a>
+              <a class="a" href="#">Adchoices</a>
+              <a class="a" href="#">Privacy Policy</a>
+              <a class="a" href="#">Visitor Agreement</a>
+              <br>
+            </div>
+            <a class="a" href="#">California Privacy Policy</a>
+            <a class="a" href="#">Do Not Sell or Share My Personal Information</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

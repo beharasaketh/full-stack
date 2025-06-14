@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="/mr and miss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    nav {
+      background-color: #F5FFFA;
+      display: flex;
+      z-index: 1;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      height: 145px;
+      width: 100%;
+    }
+
+    .logo {
+      display: flex;
+      position: absolute;
+      width: 9%;
+      top: 2px;
+      left: 45px;
+    }
+
+    .nav-options-div {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      justify-content: center;
+      left: 230px;
+      top: 40px;
+      z-index: 10000;
+    }
+
+    .nav-options {
+      list-style-type: none;
+      display: flex;
+      color: black;
+      padding: 50px;
+      font-size: 27px;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: brown;
+    }
+
+    a:hover {
+      text-decoration: underline;
+
+    }
+
+    .nav-options-fw {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      justify-content: center;
+      left: 1220px;
+      top: 58px;
+    }
+
+    .nav-fw {
+      list-style: none;
+      display: flex;
+      padding: 30px;
+      color: brown;
+      font-size: 27px;
+    }
+
+    .home-page-heading {
+      display: flex;
+      position: absolute;
+      flex-direction: row;
+      z-index: 100;
+      top: 360px;
+      left: 880px;
+
+    }
+
+    .ingmak {
+      background-color: aliceblue;
+      border: 1px solid blue;
+      display: none;
+      width: 500px;
+    }
+
+    .ingmak1 {
+      background-color: aliceblue;
+      border: 1px solid blue;
+      display: none;
+      width: 500px;
+    }
+
+    .mainhead {
+      display: flex;
+      justify-content: center;
+    }
+
+    .head {
+      display: flex;
+      justify-content: center;
+    }
+
+    .head {
+      display: flex;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #fff8e1;
+    }
+
+    .imgbox:hover .ingmak {
+      display: block;
+    }
+
+    .imgbox1:hover .ingmak1 {
+      display: block;
+    }
+
+    .row1 {
+      display: flex;
+      justify-content: space-around;
+      padding: 25px;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+      width: 500px;
+      height: 370px;
+      border: 3px solid black;
+    }
+
+    .nav-image {
+      display: flex;
+      position: relative;
+      z-index: 1000000;
+      width: 40px;
+      top: -100px;
+      left: 730px;
+      opacity: 90%;
+
+    }
+
+    body {
+      overflow-x: hidden;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    nav {
+      position: sticky;
+      top: 0px;
+    }
+
+    .footer {
+      background: linear-gradient(to bottom, rgb(174, 80, 80), #000000);
+      color: #f0f0f0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .foot1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 15px;
+    }
+
+    .foot2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 15px;
+      position: relative;
+      bottom: 5px;
+      right: 40px;
+
+
+
+    }
+
+    .faicon {
+      padding: 8px;
+    }
+
+    .a {
+      padding: 8px;
+      color: white;
+      text-decoration: none;
+      position: relative;
+      left: 30px;
+      font-size: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .network {
+      font-size: 12px;
+    }
+
+    .copyright {
+      font-size: 10px;
+      position: relative;
+      left: 35px;
+    }
+
+    .fab {
+      padding: 15px;
+    }
+
+    .smalldiv {
+      position: relative;
+      left: 40px;
+      font-weight: 25px;
+    }
+
+    .footer-links1 {
+      position: relative;
+      left: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="/index.html" target="_self"><img class="logo" style="cursor: pointer;"
+        src="/mr and miss chef logo.png"></a>
+    <div class="nav-container">
+      <ul class="nav-options-div">
+        <li class="nav-options recepies-parent"><a href="">RECIPIES <i class="fa-solid fa-bowl-food"></i></a>
+          <ul class="recepies-options">
+            <li class="recepies-types"><a href="/subpages/recepies/Freshstart.html" target="_self">FRESH START</a></li>
+            <li class="recepies-types"><a href="/subpages/recepies/middaymeals.html" target="_self">MIDDAY MEALS</a>
+            </li>
+            <li class="recepies-types"><a href="/subpages/recepies/dinnerdelights.html" target="_self">DINNER
+                DELIGHTS</a></li>
+            <li class="recepies-types"><a href="/subpages/recepies/anytimemunchies.html" target="_self">ANYTIME
+                MUNCHES</a></li>
+            <li class="recepies-types"><a href="/subpages/recepies/sweettreats.html" target="_self">SWEET TREATS</a>
+            </li>
+            <li class="recepies-types"><a href="/subpages/recepies/sipsandsips.html" target="_self">SIPS & SIPS</a></li>
+          </ul>
+        </li>
+        <li class="nav-options foodstyle-parent"><a href="">FOOD STYLES <i class="fa-solid fa-utensils"></i> </a>
+          <ul class="foodstyle-options">
+            <li class="foodstyle-types"><a href="/subpages/meatymains/meaty mains.html" target="_self">MEATY MAINS</a>
+            </li>
+            <li class="foodstyle-types"><a href="/subpages/seafoodstyles/seafood specials.html" target="_self">SEAFOOD
+                SPECIALS</a></li>
+            <li class="foodstyle-types"><a href="/subpages/healthyandwholesome//healthy and wholesome.html"
+                target="_self">HEALTHY AND WHOLESOME</a></li>
+            <li class="foodstyle-types"><a href="/subpages/dietandmenox/diet and menox.html" target="_self">DIET AND
+                MENOX</a></li>
+            <li class="foodstyle-types"><a href="/subpages//streetstylecraving//street style craving.html"
+                target="_self">STREET STYLE CRAVINGS</a></li>
+          </ul>
+        </li>
+        <li class="nav-options cuisine-parent"><a href="">CUISINE <i class="fa-solid fa-globe"></i></a>
+          <ul class="cuisine-options">
+            <li class="cuisine-types"><a href="/subpages/cuisine/indian recipes.html" target="_self">INDIAN RECEPIES</a>
+            </li>
+            <li class="cuisine-types"><a href="/subpages/cuisine/chinese recipes.html" target="_self">CHINESE
+                RECEPIES</a></li>
+            <li class="cuisine-types"><a href="/subpages/cuisine/italian recipes.html" target="_self">ITALIAN
+                RECEPIES</a></li>
+            <li class="cuisine-types"><a href="/subpages/cuisine/mexican recipes.html" target="_self">MEXICAN
+                RECEPIES</a> </li>
+          </ul>
+        </li>
+        <li class="nav-options seasonal-parent"><a href="">SEASONAL <i class="fa-solid fa-leaf"></i></a>
+          <ul class="seasonal-options">
+            <li class="seasonal-types"><a href="" target="_self">SPRINGLICIOUS</a></li>
+            <li class="seasonal-types"><a href="" target="_self">SUMMER EATS</a></li>
+            <li class="seasonal-types"><a href="" target="_self">WINTER WARM</a></li>
+            <li class="seasonal-types"><a href="" target="_self">FALL BITE</a> </li>
+          </ul>
+        </li>
+      </ul>
+      <img class="nav-image" src="/nav-image.png">
+    </div>
+
+    <div class="nav-container-2">
+      <ul class="nav-options-fw" style="z-index: 99999999999;">
+        <li class="nav-fw"><a href="" target="_self"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li class="nav-fw"><a href="/subpages/bookmark.html" target="_self"><i class="fa-solid fa-bookmark"></i> </a></li>
+        <li class="nav-fw"><a href="/subpages/profileform.html" target="_self"><i class="fa-solid fa-user"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="top">
+    <h1 class="mainhead">Italian Recepies</h1>
+
+  </div>
+
+  <div class="row1">
+
+    <div class="imgbox">
+      <img class="img1"
+        src="https://images.pexels.com/photos/4109078/pexels-photo-4109078.jpeg?auto=compress&cs=tinysrgb&w=6000">
+      <h2>Pizza</h2>
+      <div class="ingmak">
+        <div class="ingbox">
+          <ul class="inglist">
+            <h2>Ingredients:</h2>
+            <ul>
+              <li>2 cups all-purpose flour</li>
+              <li>1 tsp dry yeast</li>
+              <li>½ tsp sugar</li>
+              <li>¾ cup warm water</li>
+              <li>1 tbsp olive oil</li>
+              <li>½ tsp salt</li>
+              <li>½ cup pizza sauce</li>
+              <li>1 cup mozzarella cheese (grated)</li>
+              <li>½ cup bell peppers (sliced)</li>
+              <li>¼ cup onions (sliced)</li>
+              <li>¼ cup black olives (optional)</li>
+              <li>1 tsp oregano or Italian seasoning</li>
+              <li>Chili flakes (optional)</li>
+            </ul>>Fresh coriander and mint leaves</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="makbox">
+
+
+          <h2 class="name">Preparation Steps:</h2>
+          <ol>
+            <li>Mix warm water, sugar, and yeast in a bowl. Let it rest for 10 minutes until frothy.</li>
+            <li>Add flour, salt, and olive oil to the yeast mixture. Knead into a soft dough.</li>
+            <li>Cover the dough and let it rise for 1 hour or until it doubles in size.</li>
+            <li>Preheat oven to 220°C (430°F).</li>
+            <li>Roll out the dough into a round base. Place it on a greased baking tray or pizza pan.</li>
+            <li>Spread pizza sauce evenly over the base.</li>
+            <li>Add cheese and your choice of toppings (bell peppers, onions, olives, etc.).</li>
+            <li>Sprinkle oregano and chili flakes.</li>
+            <li>Bake the pizza for 12–15 minutes or until the crust is golden and cheese is bubbly.</li>
+            <li>Slice and serve hot!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="imgbox1">
+        <img class="img2"
+          src="https://media.istockphoto.com/id/864732392/photo/rustic-italian-homemade-beef-braciole.jpg?b=1&s=612x612&w=0&k=20&c=F2H_EQAFnzS-6eeAie6NGr_z4vafVVZptAeSyp-fIC0=">
+        <h2>Braciole</h2>
+        <div class="ingmak1">
+          <div class="ingbox">
+            <ul class="inglist">
+              <h3>Ingredients:</h3>
+              <ul>
+                <li>4 thin slices of beef (top round or flank steak)</li>
+                <li>1/4 cup grated Parmesan cheese</li>
+                <li>1/4 cup breadcrumbs</li>
+                <li>2 cloves garlic (minced)</li>
+                <li>2 tbsp chopped parsley</li>
+                <li>Salt and black pepper to taste</li>
+                <li>2 tbsp olive oil</li>
+                <li>2 cups marinara sauce</li>
+                <li>Kitchen twine or toothpicks (to tie rolls)</li>
+              </ul>
+              <h2 class="name">Preparation Steps:</h2>
+              <ol>
+                <li>Pound beef slices thin if needed. Season with salt and pepper.</li>
+                <li>In a bowl, mix Parmesan, breadcrumbs, garlic, and parsley.</li>
+                <li>Place a spoonful of filling on each beef slice. Roll tightly and secure with twine or toothpicks.
+                </li>
+                <li>Heat olive oil in a pan. Sear the rolls on all sides until browned.</li>
+                <li>Add marinara sauce, cover, and simmer for 1–1.5 hours until tender.</li>
+                <li>Remove twine/toothpicks before serving. Serve hot with pasta or bread.</li>
+              </ol>
+          </div>
+          <hr>
+          <div class="makbox">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row1">
+    <div class="container1">
+      <div class="imgbox">
+        <img class="img3"
+          src="https://images.pexels.com/photos/10342002/pexels-photo-10342002.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <h2>Mango and Coconut Pannacotta</h2>
+        <div class="ingmak">
+          <div class="ingbox">
+            <ul class="inglist">
+              <h2>Ingredients:</h2>
+              <ul>
+                <li>1 cup coconut milk</li>
+                <li>1 cup heavy cream</li>
+                <li>1/2 cup sugar</li>
+                <li>2 tsp gelatin powder</li>
+                <li>3 tbsp cold water</li>
+                <li>1 cup mango puree (fresh or canned)</li>
+                <li>1 tsp vanilla extract (optional)</li>
+                <li>Fresh mango cubes and mint leaves for garnish</li>
+              </ul>
+
+            </ul>
+          </div>
+          <hr>
+          <div class="makbox">
+
+            <h2 class="name">Preparation Steps:</h2>
+            <ol>
+              <li>In a small bowl, sprinkle gelatin over cold water and let it bloom for 5-10 minutes.</li>
+              <li>In a saucepan, combine coconut milk, cream, and sugar. Heat over medium heat until sugar dissolves (do
+                not boil).</li>
+              <li>Remove from heat, add the bloomed gelatin and stir until fully dissolved.</li>
+              <li>Add vanilla extract (if using) and let the mixture cool slightly.</li>
+              <li>Pour half of the mixture into serving glasses, filling halfway. Refrigerate for 2 hours until set.
+              </li>
+              <li>Mix mango puree with a little sugar (if desired). Once the panna cotta is set, gently pour mango puree
+                on top.</li>
+              <li>Refrigerate for another hour or until fully set.</li>
+              <li>Garnish with mango cubes and mint leaves before serving.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="imgbox1">
+        <img class="img4"
+          src="https://images.pexels.com/photos/6287536/pexels-photo-6287536.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <h2>Pasta Fagioli al Forn</h2>
+        <div class="ingmak1">
+          <div class="ingbox">
+            <ul class="inglist">
+              <h2>Ingredients</h2>
+              <ul>
+                <li>2 tablespoons olive oil</li>
+                <li>1 onion, chopped</li>
+                <li>2 cloves garlic, minced</li>
+                <li>1 carrot, diced</li>
+                <li>1 celery stalk, diced</li>
+                <li>1 can (15 oz) cannellini beans, drained and rinsed</li>
+                <li>1 can (15 oz) crushed tomatoes</li>
+                <li>1 teaspoon dried oregano</li>
+                <li>Salt and pepper to taste</li>
+                <li>1/2 pound small pasta (like ditalini or elbow)</li>
+                <li>1 cup shredded mozzarella cheese</li>
+                <li>1/4 cup grated Parmesan cheese</li>
+                <li>Fresh basil for garnish (optional)</li>
+              </ul>
+            </ul>
+          </div>
+          <hr>
+          <div class="makbox">
+            <h2 class="name">Preparation Steps:</h2>
+            <ol>
+              <li>Preheat oven to 375°F (190°C).</li>
+              <li>Heat olive oil in a large skillet over medium heat.</li>
+              <li>Add chopped onion, carrot, and celery. Sauté until softened (about 5 minutes).</li>
+              <li>Add garlic and cook for 1 more minute.</li>
+              <li>Stir in beans, crushed tomatoes, oregano, salt, and pepper. Simmer for 10 minutes.</li>
+              <li>Meanwhile, cook pasta in salted water until al dente. Drain.</li>
+              <li>Mix the pasta with the sauce and pour into a greased baking dish.</li>
+              <li>Top with mozzarella and Parmesan cheese.</li>
+              <li>Bake for 15–20 minutes until cheese is melted and golden.</li>
+              <li>Garnish with fresh basil and serve hot.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+        <div class="row">
+            <div class="foot1">
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f "></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+                <div class="copyright1">
+                    <div class="network">From our kitchen to yours – Mr. & Mrs. Chef </div>
+                    <div class="copyright">© 2025 All rights reserved. Eat well, live well.</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="foot2">
+                    <div class="footer-links1">
+                        <a class="a" href="#">All Categories</a>
+                        <a class="a" href="#">Site Map</a>
+                        <a class="a" href="#">About Us</a>
+                        <a class="a" href="#">Help</a>
+                    </div>
+                    <div class="footer-links2">
+                        <div class="smalldiv">
+                            <a class="a" href="#">Advertise</a>
+                            <a class="a" href="#">Adchoices</a>
+                            <a class="a" href="#">Privacy Policy</a>
+                            <a class="a" href="#">Visitor Agreement</a>
+                            <br>
+                        </div>
+                        <a class="a" href="#">California Privacy Policy</a>
+                        <a class="a" href="#">Do Not Sell or Share My Personal Information</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

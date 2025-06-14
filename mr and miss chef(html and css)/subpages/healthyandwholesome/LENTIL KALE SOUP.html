@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .nav-image{
+            display: flex;
+            position: relative;
+            z-index: 1;
+            width: 60%;
+            top: -200px;
+            left:730px ;
+            opacity: 90%;
+
+            
+        }
+        body{
+            overflow-x: hidden;
+            margin:0px;
+            padding:0px;
+        }
+
+        .breadcrumb {
+            display: flex;
+            position: absolute;
+            color: #1a5fb4;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-family: sans-serif;
+            top: 10px;
+            left: 3px;
+            
+        }
+
+        .rating{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 180px;
+            left: 100px;
+        }
+
+        .breadcrumb a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        }
+
+        .recipe-title {
+        font-size: 38px;
+        font-weight: bold;
+        color: rgb(248, 237, 24);
+        font-family: sans-serif;
+        }
+
+        .rating-section {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        font-family: sans-serif;
+        }
+
+        .stars{
+            display: flex;
+            position: absolute;
+            top: 70px;
+            left: 4px;
+        }
+
+        .stars span {
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+        }
+
+        .half-star {
+        position: relative;
+        }
+        .half-star::before {
+        content: "★";
+        color: #e0e0e0;
+        position: absolute;
+        left: 0;
+        width: 50%;
+        overflow: hidden;
+        }
+
+        .review-count {
+        display: flex;
+        position: absolute;
+        color: #1a5fb4;
+        font-size: 15px;
+        top: 77px;
+        left: 98px;
+        }
+
+        .community-pick {
+        border: 2px solid #9b1c1c;
+        color: #9b1c1c;
+        padding: 4px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 4px;
+        position: relative;
+        }
+
+        .community-pick::after {
+        content: '';
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #fff;
+        }
+        .hero-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            }
+
+            .hero-bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+
+            .recipe-overlay {
+            position: absolute;
+            top: 50%;
+            left: 12%;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.2); /* translucent */
+            backdrop-filter: blur(12px);
+            border-radius: 16px;
+            color: #fff;
+            z-index: 10;
+            }
+
+            .directions,
+            .ingredients {
+            flex: 1;
+            }
+
+            .directions h2,
+            .ingredients h2 {
+            font-size: 28px;
+            border-bottom: 2px dotted #fff;
+            margin-bottom: 10px;
+            }
+
+            .directions ol,
+            .ingredients ul {
+            padding-left: 20px;
+            }
+
+            .directions li,
+            .ingredients li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+            }
+
+
+    </Style>
+    <link rel="stylesheet" href="/mr and miss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body style="background-color: #FCECCA">
+    <nav>
+        <a href="/index.html" target="_self"><img class="logo" style="cursor: pointer;" src="/mr and miss chef logo.png"></a>
+        <div class="nav-container">
+            <ul class="nav-options-div">
+                <li class="nav-options recepies-parent"><a href="" >RECIPIES <i class="fa-solid fa-bowl-food"></i></a>
+                <ul class="recepies-options">
+                        <li class="recepies-types"><a href="/subpages/recepies/Freshstart.html" target="_self">FRESH START</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/middaymeals.html" target="_self">MIDDAY MEALS</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/dinnerdelights.html" target="_self">DINNER DELIGHTS</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/anytimemunchies.html" target="_self">ANYTIME MUNCHES</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/sweettreats.html" target="_self">SWEET TREATS</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/sipsandsips.html" target="_self">SIPS & SIPS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-options foodstyle-parent"><a href="">FOOD STYLES <i class="fa-solid fa-utensils"></i> </a>
+                <ul class="foodstyle-options">
+                        <li class="foodstyle-types"><a href="/subpages/meatymains/meaty mains.html" target="_self">MEATY MAINS</a></li>
+                        <li class="foodstyle-types"><a href="/subpages/seafoodstyles/seafood specials.html" target="_self">SEAFOOD SPECIALS</a></li>
+                        <li class="foodstyle-types"><a href="/subpages/healthyandwholesome/healthy and wholesome.html" target="_self">HEALTHY AND WHOLESOME</a></li>
+                        <li class="foodstyle-types"><a href="/subpages/dietandmenox/diet and menox.html" target="_self">DIET AND MENOX</a></li>
+                        <li class="foodstyle-types"><a href="/subpages//streetstylecraving//street style craving.html" target="_self">STREET STYLE CRAVINGS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-options cuisine-parent"><a href="">CUISINE <i class="fa-solid fa-globe"></i></a>
+                <ul class="cuisine-options">
+                        <li class="cuisine-types"><a href="/subpages/cuisine/indian recipes.html" target="_self">INDIAN RECEPIES</a></li>
+                        <li class="cuisine-types"><a href="/subpages/cuisine/chinese recipes.html" target="_self">CHINESE RECEPIES</a></li>
+                        <li class="cuisine-types"><a href="/subpages/cuisine/italian recipes.html" target="_self">ITALIAN RECEPIES</a></li>
+                        <li class="cuisine-types"><a href="/subpages/cuisine/mexican recipes.html" target="_self">MEXICAN RECEPIES</a> </li>
+                    </ul>
+                </li>
+                <li class="nav-options seasonal-parent"><a href="">SEASONAL <i class="fa-solid fa-leaf"></i></a>
+                <ul class="seasonal-options">
+                    <li class="seasonal-types"><a href="" target="_self">SPRINGLICIOUS</a></li>
+                    <li class="seasonal-types"><a href="" target="_self">SUMMER EATS</a></li>
+                    <li class="seasonal-types"><a href="" target="_self">WINTER WARM</a></li>
+                    <li class="seasonal-types"><a href="" target="_self">FALL BITE</a> </li>
+                </ul>
+                </li>
+            </ul>
+            <img class="nav-image" src="/nav-image.png">
+        </div>
+        
+        <div class="nav-container-2">
+            <ul class="nav-options-fw" style="z-index: 99999999999;">
+                <li class="nav-fw"><a href="" target="_self"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="nav-fw"><a href="" target="_self"><i class="fa-solid fa-bookmark"></i> </a></li>   
+                <li class="nav-fw"><a href="" target="_self"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </div>
+    </nav>  
+    <img src="/subpages/healthyandwholesome/LENTIL KALE BG.png" style="width: 100%;">
+    <div class="rating">
+    <div class="breadcrumb">
+        <a href="#">Recipes</a> / <a href="#">Cheese</a>
+        </div>
+
+        <h1 class="recipe-title">LENTIL KALE SOUP</h1>
+
+        <div class="rating-section">
+        <div class="stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="half-star">★</span>
+        </div>
+        <span class="review-count">(399)</span>
+        
+        </div>
+    </div> 
+  <div class="recipe-overlay">
+    <div class="directions">
+      <h2>DIRECTIONS</h2>
+      <ol>
+        <li>In a bowl, combine olive oil, lemon juice, minced garlic, salt, pepper, and red chili flakes.</li>
+        <li>Add cleaned, deveined prawns and marinate for at least 20–30 minutes.</li>
+        <li>Preheat a grill or grill pan over medium-high heat.</li>
+        <li>Thread prawns onto skewers or place directly on the grill.</li>
+        <li>Grill prawns for 2–3 minutes per side until pink and slightly charred.</li>
+        <li>Remove and garnish with fresh chopped parsley and a lemon wedge.</li>
+        <li>Serve hot with a dip or salad on the side.</li>
+      </ol>
+    </div>
+
+    <div class="ingredients">
+      <h2>INGREDIENTS</h2>
+      <ul>
+        <li>500g large prawns (cleaned & deveined)</li>
+        <li>2 tbsp olive oil</li>
+        <li>2 tbsp lemon juice</li>
+        <li>4 garlic cloves (minced)</li>
+        <li>½ tsp red chili flakes</li>
+        <li>Salt and pepper to taste</li>
+        <li>Fresh parsley (for garnish)</li>
+        <li>Lemon wedges (to serve)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+   
+</body>
+</html>

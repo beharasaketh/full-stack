@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .nav-image{
+            display: flex;
+            position: relative;
+            z-index: 1;
+            width: 60%;
+            top: -200px;
+            left:730px ;
+            opacity: 90%;    
+        }
+        body{
+            overflow-x: hidden;
+            margin:0px;
+            padding:0px;
+            z-index: -1;
+        }.profile-body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .form-parent{
+            background-image:url("/form-bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            justify-content: center;
+            align-items: c;
+            padding: 50px;
+            border-radius: 8px;
+            top: 155px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            z-index: 100;
+            left: 550px;
+        }
+        form{
+            margin-top: 30px;
+            margin-left: -10px;
+            
+        }
+        label{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            letter-spacing: 1px;
+            font-weight: 900;
+            font-size: 15px;
+            color:white;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        input{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            width: 100%;
+            background-color: rgba(255,255,255,0.9);
+            border: none;
+        }
+        ::placeholder{
+            color: rgba(0, 0, 0,0.7);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .login-btn{
+            background-color: white;
+            border: none;
+            font-size: 20px;
+            width:104%;
+            padding: 10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+        }
+
+        .for-pass{
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration:none;
+            color: blue;
+            font-size: 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .fafa-parent{
+            display: flex;
+            position: relative;
+            list-style-type: none;
+            left: -45px;
+            
+        }
+        li{
+            margin-left: 40px;
+            
+        }
+
+        h3{
+            text-align: center;
+            color:rgb(63, 38, 4);
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 900;
+        }
+
+        .icons{
+            font-size: 40px;
+            
+        }
+
+        .p10{
+            font-size: 20px;
+        }
+
+        .footer{
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .fafa-icon{
+            text-decoration: none;
+            color: black;
+            
+        }
+
+        .nav-container{
+            z-index: 10;
+            
+        }
+
+    </Style>
+    <link rel="stylesheet" href="/mr and miss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body style="background-color: aliceblue;">
+    <nav style="filter: blur(10px);">
+        <a href="/index.html" target="_self"><img class="logo" style="cursor: pointer;" src="/mr and miss chef logo.png"></a>
+        <div class="nav-container">
+            <ul class="nav-options-div">
+                <li class="nav-options recepies-parent"><a href="" >RECIPIES <i class="fa-solid fa-bowl-food"></i></a>
+                <ul class="recepies-options">
+                        <li class="recepies-types"><a href="/subpages/recepies/Freshstart.html" target="_self">FRESH START</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/middaymeals.html" target="_self">MIDDAY MEALS</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/dinnerdelights.html" target="_self">DINNER DELIGHTS</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/anytimemunchies.html" target="_self">ANYTIME MUNCHES</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/sweettreats.html" target="_self">SWEET TREATS</a></li>
+                        <li class="recepies-types"><a href="/subpages/recepies/sipsandsips.html" target="_self">SIPS & SIPS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-options foodstyle-parent"><a href="">FOOD STYLES <i class="fa-solid fa-utensils"></i> </a>
+                <ul class="foodstyle-options">
+                        <li class="foodstyle-types"><a href="/subpages/meatymains/meaty mains.html" target="_self">MEATY MAINS</a></li>
+                        <li class="foodstyle-types"><a href="/subpages/seafoodstyles/seafood specials.html" target="_self">SEAFOOD SPECIALS</a></li>
+                        <li class="foodstyle-types"><a href="/subpages/healthyandwholesome//healthy and wholesome.html" target="_self">HEALTHY AND WHOLESOME</a></li>
+                        <li class="foodstyle-types"><a href="/subpages/dietandmenox/diet and menox.html" target="_self">DIET AND MENOX</a></li>
+                        <li class="foodstyle-types"><a href="/subpages//streetstylecraving//street style craving.html" target="_self">STREET STYLE CRAVINGS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-options cuisine-parent"><a href="">CUISINE <i class="fa-solid fa-globe"></i></a>
+                <ul class="cuisine-options">
+                        <li class="cuisine-types"><a href="/subpages/cuisine/indian recipes.html" target="_self">INDIAN RECEPIES</a></li>
+                        <li class="cuisine-types"><a href="/subpages/cuisine/chinese recipes.html" target="_self">CHINESE RECEPIES</a></li>
+                        <li class="cuisine-types"><a href="/subpages/cuisine/italian recipes.html" target="_self">ITALIAN RECEPIES</a></li>
+                        <li class="cuisine-types"><a href="/subpages/cuisine/mexican recipes.html" target="_self">MEXICAN RECEPIES</a> </li>
+                    </ul>
+                </li>
+                <li class="nav-options seasonal-parent"><a href="">SEASONAL <i class="fa-solid fa-leaf"></i></a>
+                <ul class="seasonal-options">
+                    <li class="seasonal-types"><a href="" target="_self">SPRINGLICIOUS</a></li>
+                    <li class="seasonal-types"><a href="" target="_self">SUMMER EATS</a></li>
+                    <li class="seasonal-types"><a href="" target="_self">WINTER WARM</a></li>
+                    <li class="seasonal-types"><a href="" target="_self">FALL BITE</a> </li>
+                </ul>
+                </li>
+            </ul>
+            <img class="nav-image" src="/nav-image.png">
+        </div>
+        
+        <div class="nav-container-2">
+            <ul class="nav-options-fw" style="z-index: 99999999999;">
+                <li class="nav-fw"><a href="" target="_self"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="nav-fw"><a href="" target="_self"><i class="fa-solid fa-bookmark"></i> </a></li>   
+                <li class="nav-fw"><a href="" target="_self"><i id="profile-icon" class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </div>
+    </nav>  
+    <img style="width: 100%; display: flex; position: relative; justify-content: center; z-index: 10; height: auto; flex-direction: row; align-items: center; filter: blur(10px);"  src="/Gemini_Generated_Image_6urkk96urkk96urk.png">
+    <div class="home-page-heading" style="filter: blur(10px);" >
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 55px; color:#ED9C05;">66 ALL TIME BEST<br> FOOD RECEPIES</h1>
+        <button style=" display: flex;position: absolute; top: 200px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 17px; font-weight: 700; padding: 25px; border-radius: 5px; border: none; background-color: darkslategrey; color: white; cursor:pointer ;">SEE THEM ALL</button>
+    </div>
+    <div class="form-parent">
+        <div>
+            <h1 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">LOG IN</h1>
+        </div>
+        
+        <div>
+            <form>
+                <label for="email"  >EMAIL</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="your@email.com" required >
+                <br><br>
+                <label for="password"  >PASSWORD</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="password" required>
+                <br><br><br><Br>
+                <button class="login-btn">log in</button><br><br>
+                <a href="" class="for-pass">Forgot password?</a><br><br>
+            </form>
+        </div>
+        <div>
+            <h3>OR CONTINUE WITH</h3>
+            <ul class="fafa-parent">
+                <li><a href="" class="fafa-icon"><i class="fab fa-apple icon" class="icons"></i></a></li>
+                <li><a href="" class="fafa-icon"><i class="fab fa-facebook icon" class="icons"></i></a></i></li>
+                <li><a href="" class="fafa-icon"><i class="fab fa-google icon"class="icons"></i></a></li>
+                <li><a href="" class="fafa-icon"><i class="fab fa-amazon icon"class="icons"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p class="p10">Don't have an account yet? <a href="" target="_self" style="color: blue;">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
